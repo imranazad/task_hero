@@ -17,7 +17,18 @@
     <!-- Custom styles for this template -->
     <link href="signin.css" rel="stylesheet">
     <script src="dist/js/jquery-1.10.2.min.js"></script>
-    <script src="dist/js/custom.js"></script>
+    <script>
+        $( document ).ready(function() {
+
+                setTimeout(function() {
+                  window.location.href = "doing-great.html";
+                }, 4000);
+                
+                setTimeout(function() {
+                  $('.box').fadeOut(2000);
+                }, 1000);
+        });
+    </script>
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -33,26 +44,11 @@
     <div class="container">
 
       <div class="box">
-        <h1>Put on shoes</h1>
-        <a class="help" href="#"><img src="images/help_balloon.png"></a>
-        <a class="image" href="toothbrush-task.htm"><img src="images/shoes.png"></a>    
-         <div id="strategy">
-            <div id="strategy-info">
-            <ol>
-            <li>Find shoes</li>
-            <li>Sit down</li>
-            <li>Tie laces</li>
-            </ol>
-            </div>
-        </div>
+        <img src="images/task-hero.png">
+        <img src="images/stars.png">
+        <h1>Well done James, you're a super hero.</h1>
+        <h1>Have a good day at school</h1>
       </div>
-       <div class="box box2">
-               <input class="btn btn-lg btn-success" type="button" value="All Done!" onclick="location.href='school-bag.html';">
-        </div>
-       <div class="box box3">
-       <h2>2/3 Complete</h2>
-        <div class="progress-bar progress-bar-success" style="width: 66%"></div>
-       </div>
     </div> <!-- /container -->
 
 
