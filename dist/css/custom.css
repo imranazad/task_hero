@@ -1,3 +1,5 @@
+
+
 .box{
 width:700px;
 margin-left:auto;
@@ -47,8 +49,9 @@ color:black;
 }
 
 .box3{
-margin-top:80px;
+margin-top:10px;
 height:50px;
+border:1px solid green;
 }
 
 tr{
@@ -62,4 +65,25 @@ width:700px;
 
 td{
 font-size:30px;
+}
+
+.progress-text{
+text-align:center;
+width:700px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.all-tasks a{
+border:1px solid silver;
+width:200px;
+height:300px;
+display:block;
+float:left;
+margin-right:10px;
+}
+
+.shoes{
+position:relative;
+top:50px;
 }
