@@ -22,13 +22,7 @@
     <script>
         $( document ).ready(function() {
 
-                setTimeout(function() {
-                  window.location.href = "rewards.html";
-                }, 4000);
-                
-                setTimeout(function() {
-                  $('.box').fadeOut(2000);
-                }, 1000);
+
         });
     </script>  
     <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -46,8 +40,16 @@
     <div class="container">
 
       <div class="box">
-        <img src="images/flying-super-hero.png">
-        <h1>You're doing great, keep going, join me</h1>
+        <h1>James' Rewards</h1>
+        <h2>You have earned 3 stars this week</h2>
+        <table>
+            <tr><td>Monday</td><td><img src="images/three-stars.png" /></td></tr>
+            <tr><td>Tuesday</td><td><img src="images/three-stars-empty.png" /></td></tr>
+            <tr><td>Wednesday</td><td><img src="images/three-stars-empty.png" /></td></tr>
+            <tr><td>Thursday</td><td><img src="images/three-stars-empty.png" /></td></tr>
+            <tr><td>Friday</td><td><img src="images/three-stars-empty.png" /></td></tr>
+        </table>
+        <input class="btn btn-lg btn-success" type="button" value="Collect your reward" style="width:400px" onclick="location.href='puzpiece_achieved.html';">
       </div>
     </div> <!-- /container -->
 
